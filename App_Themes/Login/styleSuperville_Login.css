@@ -1,0 +1,1036 @@
+﻿/*Reset CSS*/
+html, body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-weight: normal;
+    font-style: normal;
+    font-family: 'Heebo', sans-serif;
+    vertical-align: baseline;
+    font-size: 10px;
+}
+body
+{
+	line-height: 1;
+}
+:focus
+{
+	outline: 0;
+}
+ol, ul
+{
+	list-style: none;
+}
+table
+{
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+blockquote:before, blockquote:after, q:before, q:after
+{
+	content: "";
+}
+blockquote, q
+{
+	quotes: "" "";
+}
+input, textarea {
+    margin-right: 10px;
+    padding: 5px;
+    border: 0;
+    border-radius: 6px;
+}
+hr
+{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	color: #000;
+	background-color: #000;
+	height: 1px;
+}
+/* End Reset CSS*/
+
+/* End Reset CSS*/
+
+
+/* Clearfix*/
+
+.clearfix:after
+{
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+.clearfix
+{
+	display: inline-block;
+}
+html[xmlns] .clearfix
+{
+	display: block;
+}
+* html .clearfix
+{
+	height: 1%;
+}
+
+
+/* End Clearfix*/
+body
+{
+	background: #ffffff;
+	margin: 0;
+	padding: 0;
+	color: #666666;
+	font-family: 'Heebo', sans-serif;    
+}
+
+
+html
+{
+	min-height: 100%;
+}
+*
+{
+	margin: 0;
+	padding: 0;
+}
+
+.floatLeft
+{
+	float: left;
+}
+.floatRight
+{
+	float: right;
+}
+.b
+{
+	font-weight: bold;
+}
+.i
+{
+	font-style: italic;
+}
+
+
+h1 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #D52B1E;
+    font-family: 'Heebo', sans-serif;
+    margin-left: 13px;
+    margin-top: 23px;
+}
+h2
+{
+	font-size: 14px;
+    color: #D52B1E;
+    font-family: 'Heebo', sans-serif;
+}
+h3
+{
+	font-size: 12px;
+}
+
+.ic-error-message
+{
+	color: Red;
+	font-size: 11px;
+	font-family: 'Heebo', sans-serif;
+}
+
+.container
+{
+	width: 990px;
+	margin: 0 auto;
+}
+
+/* header */
+.header
+{
+	background: transparent url(ImagesLogin/Login-bgHeader.png) repeat-x 0 0;
+	height: 110px;     
+}
+.logo {    
+    margin-right: 10px;
+    text-align: left
+}
+
+.left
+{
+	float: left;
+	text-align: right;
+}
+
+.right
+{
+	float: right;
+	text-align: right;
+}
+
+
+.header ul.topMenu
+{
+	margin: 23px 15px 0 0;
+}
+.header ul.topMenu li
+{
+	float: left;
+	padding-left: 10px;
+	font-size: 14px;
+	color: #D52B1E;
+	line-height: 17px;
+}
+.header ul.topMenu li a
+{
+	color: #D52B1E;
+	text-decoration: none;
+}
+.header ul.topMenu li a:hover
+{
+	text-decoration: underline;
+}
+
+.date {
+    text-align: right;
+    margin: 0 0 0 0;
+    font-size: 14px;
+    font-family: 'Heebo', sans-serif;
+}
+
+/* middle */
+.middle
+{
+	background: transparent url(ImagesLogin/login-BgMiddle.png) no-repeat 0 0;
+	margin: 8px 0px 0;
+	padding: 20px 0 0 124px;
+}
+
+.box
+{
+	width: 740px;
+}
+.box .border
+{
+	display: block;
+}
+
+.input {    
+    width: 150px;
+    height: 21px;
+    border-right: #666666 1px solid;
+    border-top: #666666 1px solid;
+    border-left: #666666 1px solid;
+    border-bottom: #666666 1px solid;
+    font-size: 12px;
+    font-family: 'Heebo', sans-serif;
+    border-radius: 6px;
+}
+
+.ASPxTextBox
+{
+	background: transparent url(ImagesLogin/login-BgInput.png) no-repeat 0 0px;
+	width: 400px;
+	height: 21px;
+	padding: 2px 0 0 5px;
+	border-style: none;
+	font-size: 10px;
+	vertical-align: top;
+	background-repeat: no-repeat;
+	font-family: 'Heebo', sans-serif;
+	text-align: left;
+}
+
+.inputLong {
+    /*background: transparent url(ImagesLogin/login-BgInput-Long.png) no-repeat 0 0px;*/
+    width: 300px;
+    height: 21px;
+    padding: 2px 0 0 5px;
+    border-right: #666666 1px solid;
+    border-top: #666666 1px solid;
+    border-left: #666666 1px solid;
+    border-bottom: #666666 1px solid;
+    font-size: 12px;
+    font-family: 'Heebo', sans-serif;
+    border-radius: 6px;
+}
+
+.inputshort {
+    /*background: transparent url(ImagesLogin/login-BgInput-Short.png) no-repeat 0 0px;*/
+    width: 50px;
+    height: 21px;
+    padding: 2px 0 0 5px;
+    border-right: #666666 1px solid;
+    border-top: #666666 1px solid;
+    border-left: #666666 1px solid;
+    border-bottom: #666666 1px solid;
+    font-size: 12px;
+    font-family: 'Heebo', sans-serif;
+    border-radius: 6px;
+}
+
+.inputmedio {
+    /*background: transparent url(ImagesLogin/login-BgInput-medio.png) no-repeat 0 0px;*/
+    width: 100px;
+    height: 21px;
+    padding: 2px 0 0 5px;
+    border-right: #666666 1px solid;
+    border-top: #666666 1px solid;
+    border-left: #666666 1px solid;
+    border-bottom: #666666 1px solid;
+    font-size: 12px;
+    font-family: 'Heebo', sans-serif;
+    border-radius: 6px;
+}
+
+.Captcha
+{
+	text-align: left;
+	width: 250px;
+}
+
+.Captcha div input
+{
+	/*background: transparent url(ImagesLogin/login-BgInput.png) no-repeat 0 0px;*/
+	width: 138px;
+	height: 21px;
+	text-align: left;
+	padding: 2px 0 0 0px;
+}
+
+.content
+{
+	background: transparent url(ImagesLogin/login-bgMiddleContainer.png) repeat-y 0 0;
+	padding: 0 0 0px 5px;
+}
+
+.colLeft
+{
+	float: left;
+	width: 550px;
+}
+.colLeft ul
+{
+	margin: 25px 2px 0;
+}
+.colLeft ul li
+{
+	float: left;
+	padding: 0 6px 10px;
+}
+
+.colRight
+{
+    float: left;
+    width: 177px; #width:179px;*width:179px;padding:1px;border-left:1pxsolid#d3d3d3;
+}
+.colRight .title
+{
+	background: transparent url(ImagesLogin/login-bgTitle.png) repeat-x 0 0;
+	height: 19px;
+	padding: 3px 0 0 15px;
+}
+
+.colRight .title h2
+{
+	background: transparent url(ImagesLogin/login-bulletTitle.png) no-repeat 0 -3px;
+	display: block;
+	color: #ffffff;
+	font-size: 12px;
+	padding: 0px 0 3 15px;
+	line-height: 16px;
+}
+
+.colRight ul
+{
+	background: transparent url(ImagesLogin/login-bgRightCol.png) repeat-x 0 0;
+	padding: 7px 0 0 0px;
+}
+.colRight ul li
+{
+	padding: 0 0 5px 17px;
+}
+.colRight ul li input
+{
+	background: transparent url(ImagesLogin/login-BgInput.png) no-repeat 0 0px;
+	width: 133px;
+	height: 19px;
+	padding: 2px 0 0 5px;
+}
+
+.colRight ul li.btn
+{
+	padding-left: 45px;
+}
+.colRight ul li.btn input
+{
+	background: transparent url(ImagesLogin/login-bgBtn.png) no-repeat 0 0px;
+	width: 80px;
+	height: 22px;
+	color: #ca0000;
+	font-size: 11px;
+	font-weight: bold;
+	display: block;
+	font-family: 'Heebo', sans-serif;
+	padding: 0px;
+}
+/*url-prefix() { .colRight ul li.btn input{background:transparent url(ImagesLogin/login-bgBtn.png) no-repeat 0 2px; height:22px;}}*/
+
+.colRight ul li.txt a
+{
+	color: #ca0000;
+	text-decoration: none;
+	font-size: 10px;
+	padding-left: 26px;
+}
+.colRight ul li.txt a:hover
+{
+	text-decoration: underline;
+}
+.colRight ul li.banners
+{
+	padding-left: 7px;
+}
+
+/* footer */
+.footer {
+    /* background: transparent url(ImagesLogin/logoSuperville-Footer.png) no-repeat 100% 35%; */
+    margin-top: 50px; /*display: block;*/
+    width: 980px;
+    text-align: left;
+    font-family: 'Heebo', sans-serif;
+    font-size: 10px;
+    color: #666666;
+}
+
+.ic-form-data-required
+{	
+    padding-right: 10px;
+    background-position: 0px 7px;
+    padding-left: 10px;
+    font-size: 12px;
+    padding-bottom: 4px;
+    vertical-align: top;
+    padding-top: 5px;
+    background-repeat: no-repeat;
+    font-family: 'Heebo', sans-serif;
+    /*background-color: #ffffff;*/
+    text-align: left;
+    color: #000000;
+}
+
+.ic-form-data
+{
+	padding-right: 10px;
+	background-position: 0px 7px;
+	padding-left: 10px;
+	font-size: 14px;
+	padding-bottom: 4px;
+	vertical-align: top;
+	padding-top: 5px;
+	background-repeat: no-repeat;
+	font-family: 'Heebo', sans-serif;
+	text-align: left;
+	/*border-bottom: 1px solid #DFDFDF;*/
+}
+
+.ic-form-label {
+    font-size: 14px;
+    font-family: 'Heebo', sans-serif;
+    padding-right: 10px;
+    background-position: 100%;
+    padding-left: 10px;
+    font-weight: bold;
+    padding-bottom: 4px;
+    vertical-align: top;
+    color: #666666;
+    padding-top: 5px;
+    background-repeat: repeat-y;
+    text-align: right;
+    /*border-bottom: 1px solid #DFDFDF;*/
+}
+
+.ic-registration-text
+{
+	font-size: 14px;
+	font-family: 'Heebo', sans-serif;
+	background-position: 100%;		
+	vertical-align: top;
+	color: #666666;
+}
+
+.ic-text-info {
+    font-size: 16px;
+    font-family: 'Heebo', sans-serif;
+    background-image: url(images/img-info.png);
+    font-weight: bold;
+    background-repeat: no-repeat;    
+    padding-left: 20px;
+    vertical-align: center;
+}
+
+.ic-button
+{
+    border: none;
+    background: none;
+    -webkit-appearance: none;
+    border-radius: 6px;
+    box-shadow: 0 1px 1px 0 rgba(26, 38, 51, 0.1);        
+    font-family: 'Heebo', sans-serif;
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: 500;
+    transition: background-color 0.2s;
+    cursor: pointer;
+    background-color: #d52b1e;
+    text-decoration: none;
+    padding: 5px;
+    text-align: center;
+}
+
+.ic-button1 {
+    background-position: 0px 0px;
+    display: block;
+    font-weight: bold;
+    font-size: 13px;
+    background-image: url(images/ic-button-01.gif);
+    padding-bottom: 1px;
+    width: 80px;
+    color: #D52B1E;
+    padding-top: 3px;
+    background-repeat: no-repeat;
+    font-family: 'Heebo', sans-serif;
+    height: 20px;
+    text-align: center;
+    text-decoration: none;
+}
+
+a.ic-button-navigation-large {
+    display: block;
+    background-image: url(../Default/images/ic-button-01-large.gif);
+    background-position: 0px 0px;
+    background-repeat: no-repeat;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Heebo', sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+    color: #D52B1E;
+    padding-bottom: 1px;
+    padding-top: 3px;
+    width: 120px;
+    height: 20px;
+}
+
+a.ic-button-navigation-Verylarge {
+    display: block;
+    background-image: url(../Default/images/ic-button-01down-Xlarge.gif);
+    background-position: 0px 0px;
+    background-repeat: no-repeat;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Heebo', sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+    color: #D52B1E;
+    padding-bottom: 1px;
+    padding-top: 3px;
+    width: 180px;
+    height: 20px;
+}
+
+.ic-button2 {
+    background-position: 0px 0px;
+    display: block;
+    font-weight: bold;
+    font-size: 13px;
+    padding-bottom: 1px;
+    width: 80px;
+    color: #D52B1E;
+    padding-top: 3px;
+    background-repeat: no-repeat;
+    font-family: 'Heebo', sans-serif;
+    height: 20px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.ic-banner-link2
+{
+	font-size: 11px;
+	font-weight: bold;
+	color: #D52B1E;
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.ic-form-data-bottom-red
+{
+	font-size: 10px;
+	font-family: 'Heebo', sans-serif;
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-top: 5px;
+	vertical-align: top;
+	text-align: left;
+	color: Red;
+}
+
+.ic-form-data-bottom-border
+{
+	font-size: 10px;
+	font-family: 'Heebo', sans-serif;
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-bottom: 4px;
+	padding-top: 5px;
+	vertical-align: top;
+	text-align: left;
+	border-bottom: 1px solid #DFDFDF;
+	color: #000000;
+}
+
+.ic-log-text-error
+{
+	font-family: 'Heebo', sans-serif;
+	font-size: 10px;
+	color: #FF0000;
+	text-decoration: none;
+	background-repeat: no-repeat;
+}
+
+.ic-log-message-link
+{
+	font-size: 10px;
+	color: #666666;
+	font-family: 'Heebo', sans-serif;
+	/*background: url(images/bot-security-small.jpg) no-repeat 0 0;*/	
+}
+
+.ic-message
+{
+	font-size: 10px;
+	background-image: url(images/img_ico-info.gif);
+	vertical-align: top;
+	text-align: left;
+	color: #666666;
+	padding-left: 20px;
+	background-repeat: no-repeat;
+	font-family: 'Heebo', sans-serif;
+	background-position: 2px 4px;
+	padding-top: 6px;
+}
+
+.hidden {
+    visibility: hidden;
+    font-size: 10px;
+    background-image: url(images/img-info.png);
+    vertical-align: top;
+    text-align: left;
+    color: #666666;
+    padding-left: 20px;
+    background-repeat: no-repeat;
+    font-family: 'Heebo', sans-serif;
+    background-position: 2px 4px;
+    padding-top: 6px;
+}
+
+div.dimmer
+{
+	visibility: hidden;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	padding: 40px;
+	_background-image: none;
+}
+
+
+div.dimming
+{
+	background-color: #ffffff;
+	position: absolute;
+	z-index: 10000;
+	visibility: hidden;
+}
+
+table.floatingHeader
+{
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border: 1px solid #000;
+	padding: 10px;
+	background-color: White;
+	color: Black;
+}
+
+.ic-banner-link
+{
+	font-size: 11px;
+	font-weight: bold;
+	color: #D52B1E;
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+
+.ic-log-message
+{
+	padding-right: 10px;
+	background-position: 10px 2px;
+	padding-left: 30px;
+	font-size: 9px;
+	background-image: url(images/img-info.gif);
+	padding-bottom: 6px;
+	color: #666666;
+	padding-top: 3px;
+	background-repeat: no-repeat;
+	font-family: 'Heebo', sans-serif;
+}
+
+.ic-log-message-link
+{
+	font-size: 10px;
+	color: #666666;
+	font-family: 'Heebo', sans-serif;
+	text-align : left;
+}
+
+.ic-log-message-important
+{
+	border-right: #c9c9c9 1px dotted;
+	padding-right: 5px;
+	border-top: #c9c9c9 1px dotted;
+	padding-left: 5px;
+	font-size: 10px;
+	padding-bottom: 5px;
+	border-left: #c9c9c9 1px dotted;
+	color: #666666;
+	padding-top: 5px;
+	border-bottom: #c9c9c9 1px dotted;
+	font-family: 'Heebo', sans-serif;
+}
+
+.ic-log-message-title-header
+{
+	font-size: 9px;
+	font-weight: bold;
+	color: Black;
+	font-family: 'Heebo', sans-serif;
+}
+
+.ic-log-message-important-space
+{
+	padding-right: 5px;
+	padding-left: 5px;
+}
+
+.ic-log-panel-bottom
+{
+	background-image: url(images/log-panel-bottom.gif);
+	background-repeat: repeat-x;
+	height: 6px;
+}
+
+.ic-log-panel-bottom-left
+{
+	background-position: 100% 100%;
+	background-image: url(images/log-panel-bottom-left.gif);
+	width: 6px;
+	background-repeat: no-repeat;
+	height: 6px;
+}
+
+.ic-log-panel-bottom-right
+{
+	background-image: url(images/log-panel-bottom-right.gif);
+	width: 6px;
+	background-repeat: no-repeat;
+	height: 6px;
+}
+
+.ic-log-panel-left
+{
+	background-position: 100% 100%;
+	background-image: url(images/log-panel-left.gif);
+	width: 6px;
+	background-repeat: repeat-y;
+}
+
+.ic-log-panel-right
+{
+	background-image: url(images/log-panel-right.gif);
+	width: 6px;
+	background-repeat: repeat-y;
+}
+
+.ic-log-panel-top
+{
+	background-image: url(images/log-panel-top.gif);
+	background-repeat: repeat-x;
+	height: 6px;
+}
+
+.ic-log-panel-top-left
+{
+	background-position: 100% 100%;
+	background-image: url(images/log-panel-top-left.gif);
+	width: 6px;
+	background-repeat: no-repeat;
+	height: 6px;
+}
+
+.ic-log-panel-top-right
+{
+	background-image: url(images/log-panel-top-right.gif);
+	width: 6px;
+	background-repeat: no-repeat;
+	height: 6px;
+}
+
+.ic-log-right-space-image
+{
+	background-image: url(images/bot-log-background.gif);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	width: 89px;
+	vertical-align: top;
+	height: 94px;
+}
+
+.ic-log-right-button-link
+{
+	text-align: left;
+	height: 10px;
+	padding-left: 20px;
+}
+
+.ic-log-right-button-link A
+{
+	font-family: 'Heebo', sans-serif;
+	font-weight: bold;
+	color: #D52B1E;
+	font-size: 9px;
+	text-decoration: none;
+	padding-bottom: 4px;
+}
+
+.ic-log-right-button-link A:hover
+{
+	font-family: 'Heebo', sans-serif;
+	font-weight: bold;
+	color: #D52B1E;
+	font-size: 9px;
+	text-decoration: underline;
+}
+.ui-dialog {
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: .2em;
+	outline: 0;
+}
+.ui-dialog .ui-dialog-titlebar {
+	padding: .4em 1em;
+	position: relative;
+}
+.ui-dialog .ui-dialog-title {
+	float: left;
+	margin: .1em 0;
+	white-space: nowrap;
+	width: 90%;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.ui-dialog .ui-dialog-titlebar-close {
+	position: absolute;
+	right: .3em;
+	top: 50%;
+	width: 21px;
+	margin: -10px 0 0 0;
+	padding: 1px;
+	height: 20px;
+}
+.ui-dialog .ui-dialog-content {
+	position: relative;
+	border: 0;
+	padding: .5em 1em;
+	background: none;
+	overflow: auto;
+}
+.ui-dialog .ui-dialog-buttonpane {
+	text-align: left;
+	border-width: 1px 0 0 0;
+	background-image: none;
+	margin-top: .5em;
+	padding: .3em 1em .5em .4em;
+}
+.ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset {
+	float: right;
+}
+.ui-dialog .ui-dialog-buttonpane button {
+	margin: .5em .4em .5em 0;
+	cursor: pointer;
+}
+.ui-dialog .ui-resizable-se {
+	width: 12px;
+	height: 12px;
+	right: -5px;
+	bottom: -5px;
+	background-position: 16px 16px;
+}
+.li-registration ul li
+{
+	float: left;
+	padding: 0 6px 10px;
+	list-style: "circle";
+	margin: 5px 0px; 
+}
+
+.ic-content-footer-rebranding {
+    margin: 10px;
+    font-family: 'Heebo', sans-serif;
+    font-size: 12px;
+    color: #666666;
+    text-align: left;
+    padding-bottom: 10px;
+}
+
+.ic-content-footer-rebranding a
+{
+    color: #666666;
+	text-decoration: underline;
+}
+.ic-content-footer-rebranding a:hover
+{
+	text-decoration: underline;
+}
+
+
+.ic-content-footer-rebranding td.datos
+{
+	background: transparent url('Images/lineFooter.png') repeat-x 0 0;
+	margin-right: 70px;
+}
+
+.ic-message-timer
+{
+    font-size: 12px;
+    vertical-align: top;
+    text-align: left;
+    color: #D52B1E;
+    font-family: 'Heebo', sans-serif;
+    padding-top: 6px;
+}
+
+.ic-control-text
+{
+border-right: #666666 1px solid;
+border-top: #666666 1px solid;
+border-left: #666666 1px solid;
+border-bottom: #666666 1px solid;
+font-size: 10px;
+font-family: 'Heebo', sans-serif;
+width: 120px;
+text-align:center;
+}
+
+.inputCodArea
+{
+	background: transparent url(ImagesLogin/login-BgInput-Short.png) no-repeat 0 0px;
+	width: 50px;
+	height: 21px;
+	padding: 2px 0 0 5px;
+}
+
+.inputCellPhone
+{
+	background: transparent url(ImagesLogin/login-BgInput-medio.png) no-repeat 0 0px;
+	width: 80px;
+	height: 21px;
+	padding: 2px 0 0 5px;
+}
+
+
+.ic-control-select {
+    border-right: #666666 1px solid;
+    border-top: #666666 1px solid;
+    border-left: #666666 1px solid;
+    border-bottom: #666666 1px solid;
+    font-size: 12px;
+    font-family: 'Heebo', sans-serif;
+    border-radius: 6px;
+    height: 21px;
+}
+
+
+.ic-header-toolbar-text-help {    
+    font-family: 'Heebo', sans-serif;
+    font-size: 12px;    
+    padding: 10px;
+    padding-top: 3px;
+    text-decoration: none;
+    background-image: url(images/icon-help.png);
+    background-repeat: no-repeat;
+}
+
+.ic-header-toolbar-text-mail {
+    font-family: 'Heebo', sans-serif;
+    font-size: 12px;
+    padding: 15px;
+    text-decoration: none;
+    background-image: url(images/icon-mail.png);
+    background-repeat: no-repeat;
+    vertical-align: top;
+}
+
+.ic-form-data-check {
+    font-size: 12px;
+    font-family: 'Heebo', sans-serif;
+    vertical-align: top;
+    text-align: left;
+}
+
+.inputChannelKey {
+    width: 132px;
+    height: 21px;
+    border-right: #666666 1px solid;
+    border-top: #666666 1px solid;
+    border-left: #666666 1px solid;
+    border-bottom: #666666 1px solid;
+    font-size: 12px;
+    font-family: 'Heebo', sans-serif;
+    border-radius: 6px;
+}
+
+.playstore-image {
+    content: url(../Default/Images/playStoreLogo.png);
+    height: 24%;
+    width: 10%
+}
+
+.appstore-image {
+    content: url(../Default/Images/appStoreLogo.png);
+    height: 25%;
+    width: 10%
+}
+
+@media (max-width: 1050px) {
+    .playstore-image {
+        content: url(../Default/Images/playStoreLogoSmall.png);
+        height: 35%;
+        width: 5%
+    }
+
+    .appstore-image {
+        content: url(../Default/Images/appStoreLogoSmall.png);
+        height: 35%;
+        width: 5%
+    }
+}
